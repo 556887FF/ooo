@@ -1,30 +1,22 @@
-/* Add your custom CSS styles here */
 body {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: black; /* 將背景設為全黑 */
+  background-color: black; /* 背景顏色全黑 */
 }
 
 .container {
   text-align: center;
-  display: none; /* 預設隱藏圖片容器 */
 }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto; /* 將圖片水平置中 */
 }
 
 .password-form {
   text-align: center;
   margin-bottom: 20px;
-}
-
-.password-form label {
-  margin-right: 10px;
 }
