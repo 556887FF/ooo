@@ -1,4 +1,4 @@
-/* CSS styles for the page */
+/* Add your custom CSS styles here */
 body {
   margin: 0;
   display: flex;
@@ -18,4 +18,13 @@ img {
   height: auto;
   display: block;
   margin: 0 auto; /* 將圖片水平置中 */
+}
+
+.password-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.password-form label {
+  margin-right: 10px;
 }
