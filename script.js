@@ -11,7 +11,7 @@ const passwordForm = document.getElementById('passwordForm');
 const musicElement = document.getElementById('music');
 
 // 音樂要等到密碼輸入正確後才播放
-musicElement.autoplay = false;
+musicElement.autoplay = true;
 
 function changeImage() {
   imageElement.src = images[currentIndex];
